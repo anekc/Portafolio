@@ -1,1 +1,146 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista {
+    display: flex;
+}
+
+a {
+    padding: 20px;
+    background: #337EFF;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px 20px 30px;
+}
+
+.titular {
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    margin: 40px;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+header {
+    background: url(src/assets/portada.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+
+/* Arranca sección sobre mi*/
+
+.contenedor-sobremi {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.contenedor-sobremi img {
+    width: 32%
+}
+
+.contenedor-parrafobuton {
+    width: 42%;
+}
+
+.contenedor-parrafobuton p {
+    font-size: 18px;
+}
+
+.contenedor-parrafobuton a {
+    padding: 15px;
+    background: #337EFF;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    padding: 15px 10px 15px 10px;
+    display: inline-block;
+}
+
+
+/*comienzan servicios */
+
+.contenedor-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.servicio img {
+    width: 95%;
+    align-content: center;
+}
+
+.servicio {
+    width: 44%;
+    padding: 23px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.violeta {
+    background: #5055df;
+}
+
+.celeste {
+    background: #40a8fa;
+}
+
+.servicio h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.servicio p {
+    font-size: 16px;
+    height: 100px;
+}
+
+.servicio a {
+    padding: 0;
+    background: #40a8fa;
+    color: black;
+}
