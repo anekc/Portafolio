@@ -2,6 +2,7 @@
     <div class="contenedor">
         <div class="menu">
             <p>ALEJANDRO ARTEAGA</p>
+            <img class="menu-icon" src="assets/menu.png">
             <nav>
                 <ul class="lista">
                     <li>Sobre mí</li>
@@ -20,4 +21,10 @@
         </div>
     </div>
 
+
 </header>
+<script>
+    $('.menu-icon').click(function() {
+        $('header nav').slideToggle();
+    })
+</script>
