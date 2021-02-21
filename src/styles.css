@@ -1,146 +1,207 @@
-/* You can add global styles to this file, and also import other style files */
-
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-p {
-    font-size: 20px;
-}
-
-li {
-    list-style: none;
-    margin-right: 25px;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.lista {
-    display: flex;
-}
-
-a {
-    padding: 20px;
-    background: #337EFF;
-    font-size: 14px;
-    text-decoration: none;
-    color: white;
-    padding: 20px 30px 20px 30px;
-}
-
-.titular {
-    text-align: center;
-    margin-top: 200px;
-}
-
-h1 {
-    font-size: 60px;
-    margin: 0;
-}
-
-h2 {
-    margin: 40px;
-    font-size: 25px;
-    margin-top: 0;
-}
-
-header {
-    background: url(src/assets/portada.jpg);
-    height: 100vh;
-    background-size: cover;
-}
-
-.contenedor {
-    max-width: 1280px;
-    width: 90%;
-    margin: auto;
-}
-
-
-/* Arranca sección sobre mi*/
-
-.contenedor-sobremi {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-h3 {
-    text-align: center;
-    font-size: 55px;
-    font-weight: normal;
-}
-
-.contenedor-sobremi img {
-    width: 32%
-}
-
-.contenedor-parrafobuton {
-    width: 42%;
-}
-
-.contenedor-parrafobuton p {
-    font-size: 18px;
-}
-
-.contenedor-parrafobuton a {
-    padding: 15px;
-    background: #337EFF;
-    font-size: 14px;
-    text-decoration: none;
-    color: white;
-    padding: 15px 10px 15px 10px;
-    display: inline-block;
-}
-
-
-/*comienzan servicios */
-
-.contenedor-servicios {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.servicio img {
-    width: 95%;
-    align-content: center;
-}
-
-.servicio {
-    width: 44%;
-    padding: 23px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    color: white;
-}
-
-.violeta {
-    background: #5055df;
-}
-
-.celeste {
-    background: #40a8fa;
-}
-
-.servicio h4 {
-    font-size: 30px;
-    margin: 0;
-}
-
-.servicio p {
-    font-size: 16px;
-    height: 100px;
-}
-
-.servicio a {
-    padding: 0;
-    background: #40a8fa;
-    color: black;
-}
+    /* You can add global styles to this file, and also import other style files */
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+    
+    li {
+        list-style: none;
+        margin-right: 25px;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .lista {
+        display: flex;
+    }
+    
+    a {
+        padding: 20px;
+        background: #337EFF;
+        font-size: 14px;
+        text-decoration: none;
+        color: white;
+        padding: 20px 30px 20px 30px;
+    }
+    
+    .titular {
+        text-align: center;
+        margin-top: 200px;
+    }
+    
+    h1 {
+        font-size: 60px;
+        margin: 0;
+    }
+    
+    h2 {
+        margin: 40px;
+        font-size: 25px;
+        margin-top: 0;
+    }
+    
+    header {
+        background: url(src/assets/portada.jpg);
+        height: 100vh;
+        background-size: cover;
+    }
+    
+    .contenedor {
+        max-width: 1280px;
+        width: 90%;
+        margin: auto;
+    }
+    /* Arranca sección sobre mi*/
+    
+    .contenedor-sobremi {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    h3 {
+        text-align: center;
+        font-size: 55px;
+        font-weight: normal;
+    }
+    
+    .contenedor-sobremi img {
+        width: 32%
+    }
+    
+    .contenedor-parrafobuton {
+        width: 42%;
+    }
+    
+    .contenedor-parrafobuton p {
+        font-size: 18px;
+    }
+    
+    .contenedor-parrafobuton a {
+        padding: 15px;
+        background: #337EFF;
+        font-size: 14px;
+        text-decoration: none;
+        color: white;
+        padding: 15px 10px 15px 10px;
+        display: inline-block;
+    }
+    /*comienzan servicios */
+    
+    .contenedor-servicios {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .servicio img {
+        width: 95%;
+        align-content: center;
+    }
+    
+    .servicio {
+        width: 44%;
+        padding: 23px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    
+    .violeta {
+        background: #5055df;
+    }
+    
+    .celeste {
+        background: #40a8fa;
+    }
+    
+    .servicio h4 {
+        font-size: 30px;
+        margin: 0;
+    }
+    
+    .servicio p {
+        font-size: 16px;
+        height: 100px;
+    }
+    
+    .servicio a {
+        padding: 0;
+        background: #40a8fa;
+        color: black;
+    }
+    
+    .contenedor-porque {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    .contenedor-porque h4 {
+        margin: 0;
+        font-size: 20px;
+    }
+    
+    .contenedor-porque p {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: justify;
+    }
+    
+    .porque-singular {
+        width: 30%;
+    }
+    
+    #blog {
+        background: #f9fafc;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .contendor-publicaciones {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .publicacion {
+        width: 30%;
+        box-shadow: 1px 1px 14px#ccc;
+        padding-bottom: 20px;
+    }
+    
+    #blog img {
+        width: 100%;
+    }
+    
+    #blog h4 {
+        font-size: 23px;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    #blog p {
+        color: #5A6169;
+        line-height: 24px;
+        font-size: 16px;
+        margin: 0;
+        padding: 10px 20px 20px 20px;
+    }
+    
+    #blog a {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    
+    .publicacion2 img {
+        height: 263px;
+    }
